@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041586131437",
+    "project_id": "ecardv3",
+    "storage_bucket": "ecardv3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041586131437:android:79fcc54a2625a09287d7e4",
+        "android_client_info": {
+          "package_name": "kbits.bcard.dev.bcard3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFwb1WIIbAywqstRAtSBkmk9_aBmNUqTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
