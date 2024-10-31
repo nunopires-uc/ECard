@@ -12,7 +12,7 @@ class QRScannerPage extends StatefulWidget {
 class _QRScannerPageState extends State<QRScannerPage> {
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
   QRViewController? controller;
-  String result = "Leia um c";
+  String result = "Leia um Cartão";
 
   @override
   void initState() {
@@ -67,7 +67,6 @@ class _QRScannerPageState extends State<QRScannerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('QR Code Scanner')),
       body: Column(
         children: [
           Expanded(

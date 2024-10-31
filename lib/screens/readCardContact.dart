@@ -213,7 +213,6 @@ class _ReadCardUIState extends State<ReadCardUI> {
                           fontSize: 20,
                           letterSpacing: 1.15,
                           fontWeight: FontWeight.bold,
-
                         ),
                       ),
                     ],

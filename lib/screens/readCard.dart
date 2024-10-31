@@ -411,6 +411,12 @@ class _ReadCardUIState extends State<ReadCardUI> {
                   ElevatedButton(
                     onPressed: () {
                       _saveContact(widget.userId);
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text('Cartão Guardado!'),
+                          backgroundColor: Colors.green,
+                        ),
+                      );
                     },
                     child: Text('Guardar'),
                   ),
